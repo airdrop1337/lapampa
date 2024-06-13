@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  font-family: Verdana;
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+h1 {
+  color: #343348;
+  margin-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px
+}
+
+.boton {
+  cursor: pointer;
+  background: #ec9814;
+  color: #F4F4F4ff;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 16px;
+  width: 250px;
+  height: 40px;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12)
+}
+
+.boton:hover {
+  text-decoration: none;
+  background-color: #c27e10;
+}
+
+.boton:disabled {
+  background: #b6b6b8;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.pin-wrapper{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  /* height:50vh; */
+}
+input{
+        border-radius: 10px;
+        border-bottom: 1px solid #b3bac8;
+        border-top: 1px solid #b3bac8;
+        border-left: 1px solid #b3bac8;
+        border-right: 1px solid #b3bac8;
+        max-width: 600px;
+        margin: 0px 7px;
+        height: 50px;
+        font-size: 18px;
+        width: 350px;
+        text-align: center;
+        outline: none;
+}
+
+.inputCodes {
+  letter-spacing: 10px;
+}
+
+.pin-input{
+  width: 44px;
+  height: 44px;
+  border: 1px solid #d7d7d7;
+  border-radius: 6px;
+  outline: none;
+  margin: 1px;
+  text-align:center;
+  margin:0 5px;
+  background:#eeeeee;
+  font-size:20px;
+}
+.pin{
+  color:#ffffff;
+  font-size:20px;
+  text-align:center;
+}
+
+input:focus {
+  border-color: rgb(126, 125, 125);
+}
+
+header {
+  background-color: #f4f4f4 !important;
+  /* box-shadow: -1px 5px 22px -3px rgba(0, 0, 0, .24); */
+  box-shadow: 1px 1px 5px -3px #000;
+  z-index: 99;
+  width: 100%;
+  height: 68px;
+  /* height: 72px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-content {
+  text-align: center;
+  font-family: verdana;
+  color: #6c757d !important;
+  font-size: 12px;
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  /* Aplica el efecto de desenfoque */
+}
+
+.modal {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 20px;
+  width: 340px;
+  position: fixed;
+  top: 120;
+}
+
+.input2 {
+  /* border: none; */
+  border-radius: 10px;
+  border-bottom: 1px solid #b3bac8;
+  border-top: 1px solid #b3bac8;
+  border-left: 1px solid #b3bac8;
+  border-right: 1px solid #b3bac8;
+  max-width: 600px;
+  margin: 0px 7px;
+  height: 48px;
+  font-size: 18px;
+  width: 150px;
+  text-align: center;
+  outline: none;
+}
+
+.input2::placeholder {
+  font-size: 13.5px;
+}
+
+/* .input-container {
+  display: flex;
+  align-items: center;
+} */
+
+.input-container span {
+  margin-right: -1px;
+}
+
+.input-container input {
+  width: 50px;
+  height: 30px;
+}
+
+
+
+.dots {
+  width: 40px;
+  height: 19.2px;
+  background: radial-gradient(circle closest-side,#ffb612 90%,#0000) 0%   50%,
+         radial-gradient(circle closest-side,#ffb612 90%,#0000) 50%  50%,
+         radial-gradient(circle closest-side,#ffb612 90%,#0000) 100% 50%;
+  background-size: calc(100%/3) 9.6px;
+  background-repeat: no-repeat;
+  animation: dots-7ar3yq 1.2s infinite linear;
+}
+
+@keyframes dots-7ar3yq {
+  20% {
+     background-position: 0%   0%, 50%  50%,100%  50%;
+  }
+
+  40% {
+     background-position: 0% 100%, 50%   0%,100%  50%;
+  }
+
+  60% {
+     background-position: 0%  50%, 50% 100%,100%   0%;
+  }
+
+  80% {
+     background-position: 0%  50%, 50%  50%,100% 100%;
+  }
+}
+
+/*eliminar de manera suave el mensaje d error*/
+.fadeOut {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}

@@ -1,0 +1,225 @@
+/* animacion login */
+/**
+ * Lo siguiente resetea las variables de bootstrap que se calculan
+ * a traves de map-merge para que en el proximo import de las mismas
+ * se vuelvan a recalcular si no fueron redefinidas.
+ */
+/* animacion login */
+/**
+ * Lo siguiente resetea las variables de bootstrap que se calculan
+ * a traves de map-merge para que en el proximo import de las mismas
+ * se vuelvan a recalcular si no fueron redefinidas.
+ */
+/*** Colores Chubut ***/
+.lnk-login-card {
+  max-height: 460px;
+  min-height: 460px;
+}
+.lnk-register-info,
+.lnk-login-info {
+  max-width: 270px;
+  min-width: 270px;
+  background-image: linear-gradient(to bottom, rgba(99, 217, 202, 0.9), rgba(2, 58, 130, 0.9)), url("img5.jpg");
+  background-size: 357px 560px;
+  background-position: center;
+}
+.lnk-register-info {
+  border-radius: 0.25rem 20px 20px 0.25rem;
+}
+.lnk-login-info {
+  border-radius: 20px 0.25rem 0.25rem 20px;
+}
+.lnk-login-content {
+  max-width: 500px;
+  min-width: 500px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.lnk-login-content-responsive {
+  max-height: 80%;
+  max-width: 60%;
+  min-height: 80%;
+  min-width: 60%;
+}
+.lnk-activation-card {
+  max-height: 400px;
+  min-height: 400px;
+  max-width: 700px;
+  min-width: 700px;
+}
+.lnk-activation-title {
+  max-height: 300px;
+  min-height: 300px;
+}
+.lnk-activation-buttons {
+  max-height: 80px;
+  min-height: 80px;
+}
+.lnk-button {
+  width: 160px;
+}
+.lnk-activation-card-md {
+  max-height: 500px;
+  min-height: 500px;
+  max-width: 700px;
+  min-width: 700px;
+}
+.lnk-activation-padding {
+  padding: 0 120px;
+}
+input::-webkit-input-placeholder {
+  color: #ADB5BD !important;
+}
+input::-moz-placeholder {
+  color: #ADB5BD !important;
+}
+input::-ms-input-placeholder {
+  color: #ADB5BD !important;
+}
+input::placeholder {
+  color: #ADB5BD !important;
+}
+.lnk-reset-password-logo-disabled {
+  border: 1px solid transparent;
+  width: 170px;
+  height: 146px;
+  border-radius: 10px;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+.lnk-reset-password-logo {
+  border: 1px solid transparent;
+  width: 170px;
+  height: 146px;
+  border-radius: 10px;
+}
+.lnk-reset-password-logo .password svg {
+  height: 46px !important;
+  width: 34px !important;
+}
+.lnk-reset-password-logo:hover {
+  border: 1px solid #00a8be;
+  border-radius: 1rem;
+}
+.lnk-reset-password-logo:hover h5 {
+  color: #00a8be !important;
+}
+.lnk-reset-password-logo:hover.disabled {
+  border: none;
+}
+.lnk-reset-password-md {
+  max-height: 360px;
+  min-height: 360px;
+  max-width: 500px;
+  min-width: 500px;
+}
+.lnk-cards-ad {
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: url("img5.jpg");
+  background-size: cover;
+}
+.lnk-card-border-left {
+  position: absolute;
+  top: 0%;
+  width: 7px;
+  height: 0%;
+  transition: all, 500ms;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-transition: all, 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.lnk-cards-logo svg {
+  height: 15px;
+  width: 50px;
+}
+.lnk-card-block-logo svg {
+  height: 40px;
+  width: 85px;
+}
+.lnk-reset-password-logo:hover svg {
+  color: #58C3B5;
+}
+.success .lnk-form-field .lnk-field-container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+.success .lnk-form-field .lnk-field-container .lnk-field-accessor {
+  overflow: visible !important;
+}
+.mail .lnk-form-field:first-child .lnk-field-container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+.mail .lnk-form-field:first-child .lnk-field-container .lnk-field-accessor {
+  overflow: visible !important;
+}
+.login-form .lnk-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.login-form .lnk-form .lnk-form-field .lnk-field-button .lnk-field-container {
+  width: 100% !important;
+  max-width: 100%;
+}
+.login-form .lnk-form .lnk-form-field.lnk-field-type-terms {
+  width: 100%;
+  margin-top: auto !important;
+  align-self: flex-end !important;
+}
+.login-form .lnk-form .lnk-form-field.lnk-field-type-terms .lnk-field-button {
+  margin-top: auto !important;
+}
+.login-form .lnk-form .lnk-form-field.lnk-field-type-terms .lnk-field-button .lnk-field-container lnk-form-field-content .lnk-field-content lnk-form-field-header-content lnk-hollow .lnk-field-accessor .lnk-terms-field {
+  justify-content: flex-start !important;
+}
+.login-alert {
+  border-radius: 10px;
+  border: 1px solid #e83030;
+  background-color: #FEF4F4;
+}
+.login-alert .icon {
+  color: #e83030;
+  margin-left: 13px;
+  margin-right: 18px;
+}
+.login-alert .icon svg {
+  width: 16px;
+  height: 16px;
+}
+.login-alert p {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 17px 0px;
+}
+.login-alert p b {
+  font-weight: bold;
+}
+.lnk-logo-entidad {
+  width: 55% !important;
+  margin-top: 5%;
+}
+.lnk-form .lnk-form-field.lnk-field-type-terms > .lnk-field-button > .lnk-field-container {
+  padding-top: 0 !important;
+}
+
+
+.lnk-register-info, .lnk-login-info {
+  background-position: 280px 555px !important;
+}
